@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background_color">
+
+    <com.github.silvestrpredko.dotprogressbar.DotProgressBar
+        android:id="@+id/genre_catalog_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:endColor="@color/colorPrimary"
+        app:startColor="@color/colorPrimaryDark"
+        custom:amount="5"
+        custom:animationDirection="left"
+        custom:duration="@android:integer/config_mediumAnimTime" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/genre_catalog_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        layout="@layout/bottom_navigation" />
+</RelativeLayout>

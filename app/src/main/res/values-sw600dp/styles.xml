@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="FullscreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CollapsedAppBar" parent="@style/TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="SpinnerItemStyle">
+        <item name="android:textSize">@dimen/spinner_item_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>

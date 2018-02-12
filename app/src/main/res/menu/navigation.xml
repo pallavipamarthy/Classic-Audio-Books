@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_black"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigation_more_categories"
+        android:icon="@drawable/more_categories_navigation_icon"
+        android:title="Categories" />
+
+    <item
+        android:id="@+id/navigation_downloads"
+        android:icon="@drawable/download_folder_navigation_icon"
+        android:title="Downloads"/>
+
+    <item
+        android:id="@+id/navigation_favourites"
+        android:icon="@drawable/favourites_navigation_icon"
+        android:title="Favourites" />
+</menu>

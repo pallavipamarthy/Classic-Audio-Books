@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  <color name="colorPrimary">#ad580d</color>
+      <color name="colorPrimaryDark">#7c3a00</color>
+      <color name="colorAccent">#1c8c84</color> -->
+    <color name="colorPrimary">#845c7a</color>
+    <color name="colorPrimaryDark">#5e4257</color>
+    <color name="colorAccent">#245aaf</color>
+
+    <color name="light_background_color">#ede9e6</color>
+    <color name="detail_page_heading">#706a6a</color>
+    <color name="transparent_background">#40111111</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="translucent_color">#8C111111</color>
+    <color name="player_background">#2e3033</color>
+</resources>

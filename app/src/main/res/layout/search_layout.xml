@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_edit_text_layout_height"
+        android:layout_gravity="center"
+        android:elevation="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/search_button_image"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="@dimen/spinner_layout_margin_start"
+            android:src="@drawable/ic_search_black" />
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.50"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingBottom="2dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/search_selection_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/spinner_margin_end"
+            android:layout_marginStart="10dp"
+            android:entries="@array/book_selection_spinner" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.80"
+        android:background="@color/light_background_color">
+
+        <TextView
+            android:id="@+id/empty_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="@string/search_empty_list_text"
+            android:textSize="@dimen/empty_search_layout_string" />
+
+        <com.github.silvestrpredko.dotprogressbar.DotProgressBar
+            android:id="@+id/progress_bar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            app:endColor="@color/colorPrimary"
+            app:startColor="@color/colorPrimaryDark"
+            custom:amount="5"
+            custom:animationDirection="left"
+            custom:duration="@android:integer/config_mediumAnimTime" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/search_list_margin_end"
+            android:layout_marginStart="@dimen/search_list_margin_start"
+            android:layout_marginBottom="56dp"/>
+    </RelativeLayout>
+    <include layout="@layout/bottom_navigation" />
+</LinearLayout>
+

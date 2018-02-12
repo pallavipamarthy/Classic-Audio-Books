@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="genre_heading_text_size">18sp</dimen>
+
+    <!--search layout -->
+    <dimen name="empty_search_layout_string">16sp</dimen>
+    <dimen name="search_edit_text_layout_height">100dp</dimen>
+    <dimen name="spinner_margin_end">20dp</dimen>
+
+    <!-- spinner list item -->
+    <dimen name="spinner_item_text_size">20sp</dimen>
+    <item name="spinner_weight" format="float" type="dimen">0.30</item>
+
+    <!-- detail layout -->
+    <dimen name="app_bar_layout_height">400dp</dimen>
+    <dimen name="toolbar_height">100dp</dimen>
+    <dimen name="thumbnail_width">250dp</dimen>
+    <dimen name="thumbnail_height">250dp</dimen>
+    <dimen name="detail_text_size">18sp</dimen>
+</resources>

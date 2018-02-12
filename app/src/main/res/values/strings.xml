@@ -1,0 +1,99 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Classic AudioBooks</string>
+    <string-array name="book_selection_spinner">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Genre</item>
+    </string-array>
+    <string-array name="more_categories_list">
+        <item>Action &amp; Adventure Fiction</item>
+        <item>Detective Fiction</item>
+        <item>Myths, Legends &amp; Fairy Tale</item>
+        <item>Science Fiction</item>
+        <item>Humorous Fiction</item>
+        <item>Short Stories</item>
+        <item>Satire</item>
+        <item>Suspense, Espionage &amp; Political Thrillers</item>
+        <item>Literary Collections</item>
+        <item>Psychology</item>
+        <item>True Crime</item>
+        <item>Travel &amp; Geography</item>
+    </string-array>
+
+    <!-- Book Detail Activity -->
+    <string name="download_button_text">DOWNLOAD</string>
+    <string name="download_button_tag">download</string>
+
+    <string name="downloading_button_text">DOWNLOADING</string>
+    <string name="downloading_button_tag">downloading</string>
+
+    <string name="listen_button_tag">listen</string>
+    <string name="listen_button_text">LISTEN</string>
+
+    <string name="add_to_wishlist_tag">addToWishlist</string>
+    <string name="add_to_wishlist_text">ADD TO WISHLIST</string>
+
+    <string name="in_wishlist_text">IN WISHLIST</string>
+    <string name="in_wishlist_tag">inWishList</string>
+
+    <string name="delete_button_tag">deleteTag</string>
+    <string name="delete_button_text">DELETE</string>
+
+    <string name="progress_extra_text">progressExtra</string>
+    <string name="snackbar_text">No internet connection found</string>
+
+    <!-- Category List Activity -->
+    <string name="genre_extra_text">genre</string>
+    <string name="is_network_genre_extra">networkGenre</string>
+    <string name="more_categories_text">Categories</string>
+    <string name="selected_list_item_text">selectedIndex</string>
+
+    <!-- Downloads Activity -->
+    <string name="my_downloads_text">My Downloads</string>
+    <string name="favourites_text">Favorites</string>
+    <string name="activity_name_extra_text">activityName</string>
+
+    <!-- Genre Catalog Activity -->
+    <string name="romance_genre_title">Romance</string>
+    <string name="drama_genre_title">Drama</string>
+    <string name="comedy_genre_title">Comedy</string>
+
+    <!-- Search Activity -->
+    <string name="empty_search_toast">Please enter a title/author/genre name to search</string>
+    <string name="no_book_results_found">Sorry! Cannot find any books matching your query.</string>
+
+    <!-- json utils -->
+    <string name="detail_base_url">https://archive.org/details/</string>
+
+    <!-- splash layout -->
+    <string name="splash_layout_text">Audio Book App</string>
+
+    <!-- search layout -->
+    <string name="search_empty_list_text">Search by book title, genre or author</string>
+
+    <!-- main layout -->
+    <string name="general_fiction_text">General Fiction</string>
+    <string name="crime_mystery_text">Crime &amp; Mystery</string>
+    <string name="horror_supernatural_text">Horror &amp; Supernatural</string>
+    <string name="fantasy_text">Fantasy</string>
+
+    <!--downloads layout -->
+    <string name="empty_downloads_text">No downloads to show</string>
+    <string name="empty_favorites_text">No favorites added yet</string>
+
+    <!--book detail layout-->
+
+    <string name="author_heading_text">Author : </string>
+    <string name="copyright_year_heading">Copyright Year : </string>
+    <string name="duration_heading_text">Duration : </string>
+    <string name="added_to_wishlist_toast">Added to wishlist!</string>
+    <string name="removed_from_wishlist_toast">Removed from wishlist!</string>
+
+    <string translatable="false" name="durationformatshort"><xliff:g id="format">%2$d:%5$02d</xliff:g></string>
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+    <string translatable="false" name="durationformatlong"><xliff:g id="format">%1$d:%3$02d:%5$02d</xliff:g></string>
+
+    <string name="delete_book_dialog_title">Delete Book</string>
+    <string name="delete_book_dialog_message">Are you sure you want to delete this book?</string>
+
+</resources>
